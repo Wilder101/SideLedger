@@ -201,6 +201,28 @@ img {
     margin: 0 auto 30px;
 }
 
+/* Success */
+.success {
+    background-color: #333;
+    height: 70px;
+}
+
+.success.content {
+    background-color: #28a745;
+    height: 250px;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+.success.content h1 {
+    font-size: 45px;
+}
+
+.success.content p {
+    padding: 10px 20px;
+}
+
 /* Footer */
 .footer {
     display: flex;
@@ -221,6 +243,13 @@ img {
 
 .footer .social > * {
     margin: 0 15px;
+}
+
+/* Subfooter */
+.subfooter {
+    height: 100vh;
+    /* background-color: #000; */
+    background-color: #333;
 }
 
 /* Mobile -- tablet or fewer pixels */

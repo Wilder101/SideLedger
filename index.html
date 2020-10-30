@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <meta name="robots" content="noindex">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -22,6 +24,7 @@
 </head>
 
 <body id="home">
+    <!-- Navbar -->
     <header class="hero">
         <div id="navbar" class="navbar top">
             <h1 class="logo">
@@ -209,19 +212,15 @@
                 <div class="column">
                     <div class="column-2 bg-light">
                         <h2>Request Callback</h2>
-                        <form action="" class="callback-form">
+                        <form action="process.php" method="POST" class="callback-form">
                             <div class="form-control">
                                 <label for="name"></label>
                                 <input type="text" name="name" id="name" placeholder="Enter name">
                             </div>
-                        </form>
-                        <form action="" class="callback-form">
                             <div class="form-control">
                                 <label for="email"></label>
                                 <input type="email" name="email" id="email" placeholder="Enter email">
                             </div>
-                        </form>
-                        <form action="" class="callback-form">
                             <div class="form-control">
                                 <label for="phone"></label>
                                 <input type="text" name="phone" id="phone" placeholder="Enter phone">
