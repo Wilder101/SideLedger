@@ -2,7 +2,7 @@
   if (isset($_POST['email']))  {
   
     // Email information
-    $admin_email = "wilder.m@gmail.com";
+    $admin_email = "you@email.com";
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
@@ -11,6 +11,5 @@
     mail($admin_email, "New Form Submission", $name . ' - ' . $phone, "From:" . $email);
     
     // Redirect after mail function 
-    // header('Location: http://sideledger.com/success.html');
-    header('Location: /success.html');
+    header('Location: http://sideledger.com/success.html');
   } 
